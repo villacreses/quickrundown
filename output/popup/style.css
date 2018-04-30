@@ -1,5 +1,27 @@
 html,
 body {
-  height: 200px;
-  width: 300px;
+  width: 500px;
+  padding: 5px 5px;
+}
+
+button {
+  margin: 10px;
+}
+
+ul {
+  background: #87ceeb;
+  color: #444;
+}
+
+li {
+  position: relative;
+  display: block;
+  background: #87ceeb;
+  color: #444;
+  text-align: center;
+  border-radius: 2em;
+  font-weight: bold;
+  border: .3em solid #fff;
+  padding: 10px;
+  margin: 5px;
 }
