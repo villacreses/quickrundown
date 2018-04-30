@@ -4,11 +4,11 @@ module.exports = {
   mode: isDev ? 'development' : 'production',
   entry: [
     '@babel/polyfill', // enables async-await
-    './content_scripts/entry.js'
+    './output/content_scripts/index.js'
   ],
   output: {
     path: __dirname,
-    filename: './public/content_scripts_bundle.js'
+    filename: './output/bundle.js'
   },
   devtool: 'source-map',
   module: {

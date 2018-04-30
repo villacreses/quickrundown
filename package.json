@@ -1,7 +1,6 @@
 {
   "name": "quick_rundown",
   "version": "1.0.0",
-  "description": "",
   "main": "background.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "sum": "^0.1.4",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.15"
   },
@@ -24,5 +23,14 @@
     "@babel/register": "^7.0.0-beta.40",
     "babel-eslint": "^8.0.1",
     "babel-loader": "^7.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villacreses/quickrundown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/villacreses/quickrundown/issues"
+  },
+  "homepage": "https://github.com/villacreses/quickrundown#readme",
+  "description": ""
 }
