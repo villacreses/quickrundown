@@ -17,6 +17,13 @@ const createBulletedList = textArr => {
     })
 }
 
+const clearList = () => {
+  let container = document.getElementById('rundown-container');
+  while (container.firstChild) {
+    container.removeChild(container.firstChild);
+  }
+}
+
 const startScraping = () => chrome.tabs.executeScript({
   file: 'bundle.js'
 });
@@ -35,4 +42,7 @@ const loadRundown = () => {
 }
 
 window.onload = () => startScraping();
-scanButton.onclick = () => loadRundown();
+scanButton.onclick = () => {
+  loadRundown();
+  scanButton.textContent = 'Refresh'
+}
